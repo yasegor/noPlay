@@ -1,6 +1,8 @@
-<h1>Python script "noPlay" v1.0</h1>
-<h3>Суть роботи:</h3>
-<p>Цей скрипт перевіряє наявність тасків у планері <a href="https://habitica.com">"Habitica"</a> та значення DisallowRun у реєстрі.</p>
+<h1><img src="https://img.icons8.com/external-smashingstocks-isometric-smashing-stocks/55/000000/external-gamepad-game-smashingstocks-isometric-smashing-stocks-9.png"/> Python script "noPlay" v1.0</h1>
+
+<h2>Суть роботи:</h2>
+<p>Цей скрипт перевіряє наявність тасків у планері
+<a href="https://habitica.com" target="_blank">"Habitica"</a> та значення DisallowRun у реєстрі.</p>
 <p>Скрипт дасть дозвіл використовувати заблоковані додатки коли всі таски будуть виконані, перевірка йде кожні 10 хвилин.</p>
 <p>Після зміни значення у реєстрі почнеться перезавантаження ПК.</p>
 <p>Якщо є таски та додатки заблоковані - скрипт продовжує роботу поки всі таски не закриються.</p>
@@ -11,7 +13,7 @@
 
 <h3>Інструкція:</h3>
 <p>Спочатку треба внести необхідні програми для блокування у реєстр. 
-<a href="https://www.maketecheasier.com/block-applications-windows10/">Інструкція.</a></p>
+<a href="https://www.maketecheasier.com/block-applications-windows10/" target="_blank">Інструкція.</a></p>
 <p>Для коректної роботи програми не забудьте встановити всі модулі з requirements.txt</p>
 <p>Попередньо треба вписати USER_ID, TOKEN та TAG у .env.dev, потім змінити розширення на .env</p>
 <h5>! Виявлення необхідного тегу та можливість додати декілька буде у наступній версії скрипту !</h5>
